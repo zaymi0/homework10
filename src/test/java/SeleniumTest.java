@@ -15,7 +15,7 @@ public class SeleniumTest {
         for (WebElement link : links) {
             System.out.println(link.getAttribute("href"));
         }
-        driver.findElement(By.linkText(links.get(9).getText())).click();
+        links.get(9).click();
         driver.quit();
     }
 }
