@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parameterized">
+    <test name="parameterized">
+       <parameter name="login" value="mihazx007@gmail.com"/>
+        <parameter name="password" value="QWERTY"/>
+        <classes>
+            <class name="Object.RubberDucksTest">
+            </class>
+        </classes>
+    </test>
+</suite>
